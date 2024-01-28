@@ -1,0 +1,130 @@
+body{
+    background-color: #d7ddd8;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; 
+  
+   
+}
+.logo-image {
+    max-width: 320px; 
+    height: auto;
+}
+
+.ramka{
+    border: 2px solid #1f462c;
+    height: 500px;
+    width: 900px;
+    margin: auto;
+    background-color: white;
+  
+}
+
+.contact{
+    color: rgb(35, 66, 45);
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+.syobshtenie{
+    margin-left: 170px;
+    margin-top: 50px;
+    font-size: 15px;
+    color: #838385;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px;
+}
+
+input{
+    color: rgb(90, 82, 82);
+    margin: auto;
+    width: 140%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 0;
+    font-family: 'Montserrat',sans-serif;
+    transition: all .3s;
+    border-bottom: 2px solid #bebed2;
+
+    
+}
+input:focus{
+    border-bottom: 2px solid #78788c;
+}
+button {
+    
+    background-color: rgb(35, 66, 45);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 30%;
+    margin-top: 60px;
+    margin-left: 320px;
+}
+
+button:hover {
+    background-color:rgb(54, 95, 67);
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content:space-around;
+    margin: 60px;
+   
+    
+   
+}
+
+.short{
+    max-width: 510px;
+    margin-left: 100px;
+}
+.ime{
+    margin-left: -65px;
+}
+
+h3{
+    text-align: center;
+    margin-top:25px;
+    color: #1f462c;
+    
+}
+.insta{
+    width: 3.5%;
+    margin-top: 25px;
+    margin-left: 670px ;
+}
+h4{
+    text-decoration: none;
+    margin-left: 745px;
+    margin-top: -45px;
+    font-size: 21px;
+    color: #1f462c;
+}
+.snimki1{
+    width: 20%;
+    margin-left: 150px;
+    margin-top: 25px;
+    text-align: center;
+    flex-direction: row;
+    border: 0.5px solid #78788c;
+    transition: 1s;
+
+}
+.snimki1:hover{
+    opacity:0.8;
+    transform: scale(1.2);
+}
